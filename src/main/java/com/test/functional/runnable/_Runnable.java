@@ -1,4 +1,4 @@
-package com.test.functional;
+package com.test.functional.runnable;
 
 public class _Runnable {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.test.functional;
+package com.test.functional.function;
 
 import java.util.function.Function;
 
