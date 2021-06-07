@@ -1,0 +1,17 @@
+1- Function<T,R> : set T for Input Type And Set R for OuyPut Type
+2- BiFunction<T, U, R> : set T, U for Input Type And Set R for OuyPut Type
+3- Predicate<T> : T is input type and output is a boolean
+4- BiPredicate<T, U> : T, U are input type and output is a boolean
+5- Consumer<T> :  T are input type and output of method is boolean
+6- BiConsumer<T, U> :  T, U are input type and output of method is boolean
+7- Supplier<T> : input is null and T is output type
+8- UnaryOperator<T> : input and output type is same
+9- BinaryOperator<T> : has 2input with T type also output type is T
+
+PrimitiveFunction:
+IntFunction<T> : return type is Int and input type is T
+LongFunction<T> : return type is Long and input type is T
+DoubleFunction<T> : return type is Double and input type is T
+ToIntFunction<T> : return type is T and input type is Int
+ToLongFunction<T> : return type is T and input type is Long
+ToDoubleFunction<T> : return type is T and input type is Double

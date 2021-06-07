@@ -22,5 +22,10 @@ public class _Function {
         Function<Integer, Integer> add = (value) -> value + 3;
         Function<Integer, Integer> addThenMultiply = multiply.compose(add);
         System.out.println("-----compose : "+addThenMultiply.apply(5));
+
+        //identity return input for output
+        Function<String, String> function = Function.identity();
+        System.out.println("---identity--"+function.apply("hello"));
+
     }
 }

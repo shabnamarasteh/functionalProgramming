@@ -1,0 +1,12 @@
+stream support two operation:
+1- intermediate operation (lazy) :filter, map, distinct, flatmap,limit, peek, skip, dropWhile, takeWhile, sorted
+2- terminal operation (eager) : reduce, allMatch, anyMatch, findAny, findFirst, noneMatch, forEach, count, min, max
+ , collect(just have one terminal operation in a streamm)
+we have LongStream, DoubleStream and IntStream for primitive dataType
+Stream is sequential
+parallel use in thread and with isParallel method can be found method is parallel or not.
+Stream in backend work with forkJoin framework for distribute operation in threads.
+in stream, close function already is unimportant. close used is important when we work with files.
+we can do sth after close stream in OnClose Method, that's a runnable collection and don't have a input.
+optional is a wrapper. an object keep on this.
+
